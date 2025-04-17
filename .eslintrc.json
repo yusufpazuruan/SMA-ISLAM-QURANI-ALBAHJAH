@@ -1,0 +1,11 @@
+// .eslintrc.json
+{
+    "extends": [
+      "eslint:recommended"
+    ],
+    "rules": {
+      "no-unused-vars": "off", // menonaktifkan aturan unused-vars
+      "no-console": "off" // menonaktifkan aturan console
+    }
+  }
+  

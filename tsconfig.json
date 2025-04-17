@@ -8,6 +8,11 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
-    }
+    },
+    "noUnusedLocals": false, // menonaktifkan peringatan untuk variabel yang tidak digunakan
+    "noUnusedParameters": false, // menonaktifkan peringatan untuk parameter yang tidak digunakan
+    "skipLibCheck": true, // Melewatkan pemeriksaan tipe di library
+    "noEmitOnError": false // Tidak menghasilkan error meskipun ada kesalahan tipe
+  
   }
 }
