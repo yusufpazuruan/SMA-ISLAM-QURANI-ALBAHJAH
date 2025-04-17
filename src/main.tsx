@@ -22,7 +22,7 @@ import SettingsLayout from "@/pages/protected/settings/layout.tsx";
 import Account from "@/pages/protected/settings/account/index.tsx";
 import Onboarding from "@/pages/protected/onboarding/index.tsx";
 import Tes from "@/pages/examples/tes.tsx";
-import OnboardingPage from "@/pages/examples/onboarding.tsx";
+// import OnboardingPage from "@/pages/examples/onboarding.tsx";
 import CreateNewUser from "./pages/auth/create-new-user.tsx";
 import AccountStatus from "./pages/protected/account-status.tsx";
 
@@ -74,7 +74,7 @@ createRoot(document.getElementById("root")!).render(
           <Route path="/account-status" element={<AccountStatus />} />
 
           {/* EXAMPLE ONBOARDING */}
-          <Route path="/example/onboarding" element={<OnboardingPage />} />
+          {/* <Route path="/example/onboarding" element={<OnboardingPage />} /> */}
         </Route>
 
         <Route path="/create-new-user" element={<CreateNewUser />} />

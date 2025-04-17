@@ -172,9 +172,9 @@
 
 
 // import { Stepper, StepperIndicator, StepperItem, StepperSeparator, StepperTrigger } from "@/components/ui/stepper";
-import OnboardingForm from "./onboarding-form";
+// import OnboardingForm from "./onboarding-form";
 
-const steps = [1, 2, 3, 4];
+// const steps = [1, 2, 3, 4];
 
 export default function Onboarding() {
   return (

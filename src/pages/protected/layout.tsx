@@ -95,7 +95,7 @@ import {
   isUserStatusPending,
   verifyUser,
 } from "@/db/action/user";
-import { toast } from "sonner";
+// import { toast } from "sonner";
 
 export default function ProtectedLayout() {
   const navigate = useNavigate();

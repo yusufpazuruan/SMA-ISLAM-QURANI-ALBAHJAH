@@ -1,3 +1,4 @@
+//@ts-nocheck
 import * as React from "react";
 // import { ChevronsUpDown, Plus } from "lucide-react";
 
@@ -14,10 +15,9 @@ import {
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
-  useSidebar,
+  // useSidebar,
 } from "@/components/ui/sidebar";
 // import Logo from "./logo";
-//@ts-nocheck
 export function TeamSwitcher({
   teams,
 }: {
