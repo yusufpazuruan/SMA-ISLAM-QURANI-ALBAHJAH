@@ -21,7 +21,7 @@ import {
 
 import "react-image-crop/dist/ReactCrop.css"
 import { CropIcon, Trash2Icon } from "lucide-react"
-import { FileWithPreview } from "@/pages/protected/onboarding/upload-avatar"
+import { FileWithPreview } from "@/components/upload-photo-with-crop"
 
 interface ImageCropperProps {
   dialogOpen: boolean
