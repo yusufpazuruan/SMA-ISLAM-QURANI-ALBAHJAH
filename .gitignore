@@ -27,3 +27,6 @@ dist-ssr
 data-by-email.json
 data-by-google.json
 db.json
+
+# env
+.env.env
