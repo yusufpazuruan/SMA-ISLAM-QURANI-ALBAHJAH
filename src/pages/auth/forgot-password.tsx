@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import Logo from "@/components/logo";
+// import Logo from "@/components/logo";
 import { InputWithEndIcon } from "@/components/ui/input-with-end-icon";
 import { MailIcon } from "lucide-react";
 import supabase from "@/supabase/client";
