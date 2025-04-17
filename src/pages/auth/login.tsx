@@ -3,7 +3,7 @@ import PasswordInput from "@/components/ui/password-input";
 import { InputWithEndIcon } from "@/components/ui/input-with-end-icon";
 import { MailIcon } from "lucide-react";
 import { Link, useNavigate } from "react-router";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import supabase from "@/supabase/client";
 import SignInGoogleButton from "@/components/signin-google";
 
